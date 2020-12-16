@@ -1,0 +1,19 @@
+To Run introducer - gossip : python3 intro.py --ip 172.22.156.32 --intro_port 2000 --algo "gos"
+To Run introducer - all to all : python3 intro.py --ip 172.22.156.32 --intro_port 2000 --algo "all"
+
+To Run Node - gossip : python3 node.py --ip 'node's ip' --intro_port 2000 --port 2001 --algo gos
+To Run Node - all to all : python3 node.py --ip 'node's ip' --intro_port 2000 --port 2001 --algo all
+
+vm IPs:
+1) 172.22.156.32
+2) 172.22.158.32
+3) 172.22.94.32
+4) 172.22.156.33
+5) 172.22.158.33
+6) 172.22.94.33
+7) 172.22.156.34
+8) 172.22.158.34
+9) 172.22.94.34
+10) 172.22.156.35
+
+Introducer needs to be run on vm1
